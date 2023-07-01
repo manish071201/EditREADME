@@ -117,3 +117,14 @@ Conclusion: Since, Both the models have equal Accuracy, I am considering the Reg
 # Required Dependencies
 
 **1.** [numpy](https://github.com/numpy/numpy)
+**2.** [pandas](https://github.com/pandas-dev/pandas)
+**3.** [matplotlib](https://github.com/matplotlib/matplotlib)
+**4.** [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+**5.** [seaborn](https://github.com/seaborn/seaborn)
+
+# Results
+
+**1.** Logistic Regression ➡️ 77.92
+**2.** SVM Technique ➡️ 77.92
+
+**Conclusion: Since, Both the models have equal Accuracy, I am considering the Regression Model as our predictive Model.**

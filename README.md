@@ -64,3 +64,56 @@ Machine Learning is the field of study that gives computers the capability to le
 **Unsupervised learning** is the training of a machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of the machine is to group unsorted information according to similarities, patterns, and differences without any prior training of data.
 
 <img src="https://user-images.githubusercontent.com/107324616/176885992-928d2320-50ae-4fa6-921b-509ac938ab8e.png">
+
+# Logistic Regression
+
+Logistic regression is basically a supervised classification algorithm. In a classification problem, the target variable(or output), y, can take only discrete values for a given set of features(or inputs), X.
+
+Contrary to popular belief, logistic regression is a regression model. The model builds a regression model to predict the probability that a given data entry belongs to the category numbered as “1”. Just like Linear regression assumes that the data follows a linear function, Logistic regression models the data using the sigmoid function
+
+**Sigmoid Function: g(z) = 1/1+e^-z**
+
+<img src="https://user-images.githubusercontent.com/107324616/179775279-b2ca154b-9c00-4464-87f2-8c7d1b1a4390.png">
+
+# Support Vector Machine
+
+Support Vector Machine (SVM) is a supervised machine learning algorithm that can be used for both classification or regression challenges. However, it is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
+
+To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
+
+<img src="https://user-images.githubusercontent.com/107324616/179776508-541d72c7-15ef-4934-a283-88f9f09c9192.png">
+
+# Basic Working Pipeline of the Project
+
+<img src="https://user-images.githubusercontent.com/107324616/179779255-ed3840c4-d44f-4fb1-b042-364fc9c0e0a7.png">
+
+The following steps are used to create a Machine Learning Project using predefined dataset:
+
+**1.Data Collection:** The very first step is to collect the data and required dependencies.
+
+**2.Data Analysis and Data Preprocessing**
+
+**2.1 Data Analysis:** After that, we used to analyze the dataset, about it's behaviour, trend and changes with respect to independent attributes. We also have to analyze the dependencies between every attribute, such that our model must be fitted perfectly.
+
+**2.2 Data Cleaning and Preprocessing:** This is the most important step in model creation. The Cleaning of our dataset, such that the good data can be used for next process and unrequired/bad data should be removed so that the condition of overfitting and underfitting won't occur.
+
+**3.Feature Enginnering:** It is a machine learning technique that leverages data to create new variables that aren't in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy.
+
+**4.Data Splitting (Train-Test):** Now we will spilt the dataset into two parts, the training part will be used to create the model and testing part will be used to verify the results of our model.
+
+**5.** At last, we will select the most accurate result between both the techniques.
+
+Required Dependencies
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+Results
+Logistic Regression ➡️ 77.92
+SVM Technique ➡️ 77.92
+Conclusion: Since, Both the models have equal Accuracy, I am considering the Regression Model as our predictive Model.
+
+# Required Dependencies
+
+**1.** [numpy](https://github.com/numpy/numpy)

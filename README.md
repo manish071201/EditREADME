@@ -117,8 +117,8 @@ The following steps are used to create a Machine Learning Project using predefin
 
 # Results
 
-**1.** Logistic Regression ➡️ 77.30
+**1.** Logistic Regression ➡️ 76.47
 
-**2.** SVM Technique ➡️ 76.80
+**2.** SVM Technique ➡️ 76.47
 
-**Conclusion: Based on the higher accuracy and AUC score achieved by the Regression Model compared to the SVM Model, I have decided to use the Regression Model for our predictive system.**
+**Conclusion: Since, Both the models have equal Accuracy but AUC score achieved by the Regression Model is little bit more as compared to the SVM Model, so I have decided to use the Regression Model for our predictive system.**
